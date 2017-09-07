@@ -1,12 +1,12 @@
 # Site Settings
-title: Betta Dev Indonesia Education
-email: bettadevindonesia@gmail.com
+title: Jekyll Betta Starter Template
+email: your@email.com
 description: >
-  Ini adalah Blog Betta Dev Indonesia Education!
+  Contoh Jekyll Starter Template
 baseurl: "" # Sesuaikan dengan root / nama folder
-url: "" # Sesuaikan dengan nama url website
-twitter_username: blogbetta
-github_username:  blogbetta
+url: "http://127.0.0.1:4000" # Sesuaikan dengan nama url website
+twitter_username: yourtwitter
+github_username:  yourgithub
 
 # Build Settings
 sass:
