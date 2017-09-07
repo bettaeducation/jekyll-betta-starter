@@ -1,6 +1,5 @@
-<center>
 # Betta Dev Indonesia Education
-</center>
+---
 
 ## Panduan untuk memulai dengan Jekyll.
 
