@@ -2,6 +2,21 @@
 
 ## Panduan untuk memulai dengan Jekyll.
 
+## Menggunakan Jekyll Betta Starter Template
+	
+**Download ZIP File**
+[Download Jekyll Stater Template]('https://github.com/bettaeducation/jekyll-betta-starter/archive/master.zip')
+
+**Install Via Git**
+
+	```
+	$ git clone https://github.com/bettaeducation/jekyll-betta-starter.git
+	$ cd jekyll-betta-starter
+	$ jekyll serve _config_dev.yml
+	```
+
+**Package Include Bootstrap 4 Beta***
+
 1. Pelajari tentang Static Website Generator
 2. Install Ruby dan Jekyll
 	
