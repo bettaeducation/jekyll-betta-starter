@@ -1,12 +1,12 @@
 # Site Settings
-title: CB Media Group
+title: Blog Betta
 email: bettadevindonesia@gmail.com
 description: >
-  Tutorial Jekyll Static Generator Site with Gihub Pages
+  Ini adalah Blog Betta!
 baseurl: "" # Sesuaikan dengan root / nama folder
 url: "" # Sesuaikan dengan nama url website
-twitter_username: cbmediagroup
-github_username:  cbmediagroup
+twitter_username: blogbetta
+github_username:  blogbetta
 
 # Build Settings
 sass:
