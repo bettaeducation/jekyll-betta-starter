@@ -9,11 +9,9 @@
 
 **Install Via Git**
 
-	```
 	$ git clone https://github.com/bettaeducation/jekyll-betta-starter.git
 	$ cd jekyll-betta-starter
 	$ jekyll serve _config_dev.yml
-	```
 
 **Package Include Bootstrap 4 Beta***
 
