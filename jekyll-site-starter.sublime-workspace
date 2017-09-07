@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"terb",
+				"terminal-bold\t(showcase.html)"
+			],
+			[
+				"ter",
+				"ternimal-body\t(showcase.html)"
+			],
+			[
+				"btn",
+				"btn-outline-light\t(header.html)"
+			],
+			[
 				"dar",
 				"dark-overlay\t(header.html)"
 			],
@@ -220,10 +248,6 @@
 				"req1\trequire_once …"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"drop",
 				"dropdown-menu\t(admin.php)"
 			],
@@ -314,14 +338,6 @@
 			[
 				"juml",
 				"jumlah_kemasan"
-			],
-			[
-				"onc",
-				"onchange\t(Admin.php)"
-			],
-			[
-				"btn",
-				"btn-block \tBootstrap 3 Class"
 			],
 			[
 				"on",
@@ -498,22 +514,6 @@
 			[
 				"Jenis",
 				"Jenis_Produksi"
-			],
-			[
-				"add",
-				"add_produksi\t(Admin.php)"
-			],
-			[
-				"upda",
-				"update_table2"
-			],
-			[
-				"sa",
-				"satuan"
-			],
-			[
-				"els",
-				"elseif\telseif …"
 			]
 		]
 	},
@@ -535,9 +535,13 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "sub",
+		"last_filter": "cdn",
 		"selected_items":
 		[
+			[
+				"cdn",
+				"Cdnjs: Search"
+			],
 			[
 				"sub",
 				"Preferences: SublimeLinter Settings – User"
@@ -573,10 +577,6 @@
 			[
 				"pcil",
 				"Package Control: Install Package"
-			],
-			[
-				"cdn",
-				"Cdnjs: Search"
 			],
 			[
 				"pc",
@@ -764,11 +764,22 @@
 	],
 	"file_history":
 	[
-		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_posts/2017-09-07-welcome-to-website-cb-media-group-catalog.md",
-		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/README.md",
-		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_config.yml",
-		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/feed.xml",
 		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_config_dev.yml",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_config.yml",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_includes/header.html",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/.gitignore",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_sass/_base.scss",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_sass/_layout.scss",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_includes/showcase.html",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_includes/main-section.html",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_includes/footer.html",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_layouts/default.html",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_includes/features.html",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/index.html",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_includes/head.html",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/README.md",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/_posts/2017-09-07-welcome-to-website-cb-media-group-catalog.md",
+		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/feed.xml",
 		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/katalog/_config.yml",
 		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/katalog/README.md",
 		"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/katalog/index.html",
@@ -880,18 +891,7 @@
 		"/opt/lampp/htdocs/weblanjut/UAS/templates/admin/pegawai_edit.php",
 		"/opt/lampp/htdocs/weblanjut/UAS/templates/admin/pegawai_lihat.php",
 		"/opt/lampp/htdocs/weblanjut/UAS/templates/admin/pegawai.php",
-		"/opt/lampp/htdocs/weblanjut/UAS/templates/admin/pegawai_semua.php",
-		"/opt/lampp/htdocs/weblanjut/UAS/assets/css/bootstrap/css/bootstrap.css",
-		"/opt/lampp/htdocs/weblanjut/UAS/assets/css/style.css",
-		"/opt/lampp/htdocs/weblanjut/UAS/templates/admin/sidebar.php",
-		"/opt/lampp/htdocs/weblanjut/UAS/logout.php",
-		"/opt/lampp/htdocs/weblanjut/UAS/config/database.php",
-		"/opt/lampp/htdocs/weblanjut/UAS/classes/gudang.php",
-		"/opt/lampp/htdocs/weblanjut/UAS/jumbotron.css",
-		"/opt/lampp/htdocs/perusahaan_mamatika/Devisi/Produksi/Admin/Admin.php",
-		"/opt/lampp/htdocs/perusahaan_mamatika/Devisi/Produksi/Admin/templates/sub_jadwal/Update.php",
-		"/opt/lampp/htdocs/perusahaan_mamatika/Devisi/Produksi/Admin/templates/sub_jadwal/All.php",
-		"/opt/lampp/htdocs/perusahaan_mamatika/Devisi/Produksi/Admin/templates/sub_karyawan/All.php"
+		"/opt/lampp/htdocs/weblanjut/UAS/templates/admin/pegawai_semua.php"
 	],
 	"find":
 	{
@@ -910,6 +910,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bettadevindonesia",
+			"gmail",
+			"blogbetta",
+			"#007bff",
+			"#",
+			"'\"",
+			"location.href=",
+			"target=\"_blank\"",
+			"margin",
+			"ml",
+			"absolute",
+			"pre",
+			"25",
+			"light",
 			"Document",
 			"taniarascia",
 			"true",
@@ -1023,21 +1037,7 @@
 			"Status",
 			"nama_karyawan",
 			"id_karyawan",
-			"pegawai",
-			"id_karyawan",
-			"pegawai",
-			"id_karyawan",
-			"pegawai",
-			"id_karyawan",
-			"pegawai",
-			"id_hewan",
-			"jenis_hewan",
-			"id_hewan",
-			"msg",
-			"id_jenis",
-			"jenis",
-			"id_hewan",
-			"FunctionName"
+			"pegawai"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1087,7 +1087,81 @@
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
 							"default_dir": "/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter",
+							"git_gutter_is_enabled": false,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1267,7 +1341,7 @@
 		[
 			[
 				"",
-				"~/Jekyll/jekyll.sublime-workspace"
+				"/media/linux/7d55f83f-9cf2-4681-8d4e-6da22c55a359/Jekyll/jekyll-betta-starter/jekyll-site-starter.sublime-workspace"
 			]
 		],
 		"width": 380.0

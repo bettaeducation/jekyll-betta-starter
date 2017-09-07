@@ -5,7 +5,7 @@
 ## Menggunakan Jekyll Betta Starter Template
 	
 **Download ZIP File**
-[Download Jekyll Stater Template](https://github.com/bettaeducation/jekyll-betta-starter/archive/master.zip)
+[Download Jekyll Stater Template](https://github.com/bettaeducation/jekyll-betta-starter/releases/tag/v1.0.0)
 
 **Install Via Git**
 
