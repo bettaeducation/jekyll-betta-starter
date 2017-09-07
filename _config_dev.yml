@@ -1,9 +1,9 @@
 # Site Settings
-title: Blog Betta
+title: Betta Dev Indonesia Education
 email: bettadevindonesia@gmail.com
 description: >
-  Ini adalah Blog Betta!
-baseurl: "/blog" # Sesuaikan dengan root / nama folder
+  Ini adalah Blog Betta Dev Indonesia Education!
+baseurl: "" # Sesuaikan dengan root / nama folder
 url: "http://127.0.0.1:4000" # Sesuaikan dengan nama url website
 twitter_username: blogbetta
 github_username:  blogbetta

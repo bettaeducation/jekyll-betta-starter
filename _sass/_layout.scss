@@ -1,0 +1,81 @@
+/* Showcase */
+#showcase {
+	background: url('https://image.ibb.co/mNHQia/bg_bettadeveducation.png') no-repeat center center;
+	background-size: cover;
+	height: 619px;
+	padding-top: 70px;
+	color: #fff;
+	// margin-bottom: 20px;
+	a{
+		color: #fff;
+		&:hover{
+			text-decoration: none;
+			color: #333;
+		}
+	}
+	.link{
+		padding: 2px 5px 2px 0px;
+		background-color: #f4f4f4;
+		border-radius: 3px;
+		color: #222;
+		margin-right: 15px;
+		font-size: 13px;
+		font-weight: bold;
+		.fa{
+			padding: 5px 7px;
+			background-color: $color-primary;
+			border-radius: 3px !important;
+			color: #fff;
+		}
+	}
+	.terminal-container{
+		-webkit-box-shadow: 0 3px 1px 3px rgba(20,20,20,0.2);
+		box-shadow: 0 3px 1px 3px rgba(20,20,20,0.1);
+		width: 50%;
+		margin: 0px auto;
+		background-color: #222;
+		.terminal-heading{
+			font-family: "Courier New", Courier, monospace;
+			padding: 5px;
+		}
+		.ternimal-body {
+			.terminal-bold {
+				font-weight: bold !important; 
+				color: $color-primary !important;
+			}
+			.terminal-result {
+				font-style: italic !important;
+				color: #e3e3e3;
+			}
+			pre{
+				padding: 10px !important;
+				color: #e3e3e3;
+			}
+		}
+	}
+}
+
+/* Core Features */
+#features {
+	.fa{
+		font-size: 35px;
+		color: $color-primary;
+	}
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+	.navbar-brand{
+		font-family: $font-logo-small;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 2px;
+		img{
+			display: none;
+		}
+	}
+	#terminal {
+		display: $d-small-none;
+	}
+}

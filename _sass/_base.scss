@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
 @import "bootstrap_scss/bootstrap";
+
+$color-primary: #007bff;
+$d-small-none: none;
+$font-logo-small: 'Just Another Hand', cursive;
+
+.navbar-brand{
+	img{
+		width: 30px;
+		height: 30px;
+	}
+}
+
+.btn-outline-light{
+	color: #fff;
+	&:hover{
+		color: #007bff !important;
+		cursor: pointer;
+	}
+}
