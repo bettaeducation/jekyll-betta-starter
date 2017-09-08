@@ -1,3 +1,5 @@
+{% if site.navigation %}
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 	<div class="container">
 		<a class="navbar-brand" href="{{ site.baseurl }}/">
@@ -10,17 +12,17 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav ml-auto">
-		  <!-- <li class="nav-item active">
+		  <li class="nav-item active">
 		    <a class="nav-link" href="{{ site.baseurl }}/">Home <span class="sr-only">(current)</span></a>
 		  </li>
 		  {% for page in site.pages %} {% if page.title %}
 		  <li class="nav-item">
 		    <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 		  </li>
-		  {% endif %} {% endfor %} -->
+		  {% endif %} {% endfor %}
 		  <li class="nav-item active">
 		  	<a href="javascript:void(0)" class="nav-link">
-		  		<span class="text-bold">v1.0.0</span>
+		  		<span class="text-bold">{{ site.version }}</span>
 		  	</a>
 		  </li>
 		  <li class="nav-item">
@@ -30,3 +32,23 @@
 	</div>
   </div>
 </nav>
+
+{% endif %}
+
+{% if site.welcome %}
+
+	<div class="d-flex justify-content-center" id="main-section">
+	
+		<div class="flex-item">
+			<h1>{{ site.title }}</h1>
+			<p class="text-center">
+				Verison : {{ site.version }} <br>
+				Changelog : {{ site.log_date | date: "%A, %d %B %Y %H:%M %P" }} <br>
+				Author : {{ site.author }} <br>
+				<small>Copyright (c) 2017 CB Media Group Indonesia</small>
+			</p>
+		</div>
+
+	</div>
+
+{% endif %}
